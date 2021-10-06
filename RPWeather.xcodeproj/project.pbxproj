@@ -76,15 +76,11 @@
 			children = (
 				72CF5899270B8DA10054CE84 /* AppDelegate.swift */,
 				72CF589B270B8DA10054CE84 /* SceneDelegate.swift */,
-				72CF58BD270D776C0054CE84 /* TabBarController.swift */,
-				72CF589D270B8DA10054CE84 /* CurrentWController.swift */,
-				72CF58B6270C6D8E0054CE84 /* CitiesListController.swift */,
-				72CF58BB270D71C40054CE84 /* ForecastsController.swift */,
 				72CF589F270B8DA10054CE84 /* Main.storyboard */,
 				72CF58A2270B8DA30054CE84 /* Assets.xcassets */,
 				72CF58A4270B8DA30054CE84 /* LaunchScreen.storyboard */,
-				72CF58C1270D7B470054CE84 /* round.png */,
 				72CF58AD270B8DB10054CE84 /* Model */,
+				72CF58C3270D8DF60054CE84 /* Controllers */,
 				72CF58A7270B8DA30054CE84 /* Info.plist */,
 			);
 			path = RPWeather;
@@ -99,6 +95,18 @@
 				72CF58B2270C685E0054CE84 /* city.list.json */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		72CF58C3270D8DF60054CE84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72CF58BD270D776C0054CE84 /* TabBarController.swift */,
+				72CF589D270B8DA10054CE84 /* CurrentWController.swift */,
+				72CF58B6270C6D8E0054CE84 /* CitiesListController.swift */,
+				72CF58BB270D71C40054CE84 /* ForecastsController.swift */,
+				72CF58C1270D7B470054CE84 /* round.png */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
