@@ -15,10 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         CityParser().parse()
         
-        //Model().refreshDailyWeatherData(lat: 55.5, lon: 36.6) { weatherData, error in
-            //print(weatherData)
-        //}
-        
         return true
     }
 
