@@ -23,6 +23,7 @@ class CurrentWController: UIViewController {
     }
 
     
+    
         
     override func viewWillAppear(_ animated: Bool) {
         LocationManager.sharedInstance.requestForLocation {
